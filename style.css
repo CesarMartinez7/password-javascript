@@ -1,1 +1,14 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body{
+    justify-content: center;
+    height: 100vh;
+}
