@@ -16,7 +16,6 @@ document.addEventListener("mousemove",function(e){
 
 
 
-contraseñaInput.focus()
 
 
 contraseñaInput.addEventListener("keydown",function(e){
