@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <title>Document</title>
+    <title>Kivy</title>
 </head>
 <body class="body">
     <div class="box p-6 ">
@@ -13,9 +13,14 @@
         <p class="title">Eje Y: <span id="y"></span></p>
         <p class="title"><span id="key"></span></p>
         <p class="subtitle"><span id="keyClean"></span></p>
-        <p class="">Inserta tu email o tu password</p>
-        <input type="text" id="keyPass" class="input ">
+        <p class="">Rellene los campos correctamente</p>
+        <input type="email" id="email" class="input mb-4 mt-4">
+        <input type="password" id="keyPass" class="input">
         <p id="contraClean"></p>
+        <div class="is-flex ">
+            <button class="button  is-link mt-4 mr-4" id="send">Enviar</button> 
+        </div>
+        
 
     </div>
     
